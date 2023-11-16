@@ -1,0 +1,22 @@
+.fubar{
+    background-color: black;
+    color: white;
+    font-size: x-small;
+    padding: 25px;
+  }
+  
+  h6{
+   margin-top: 9px;
+   font-size: x-small;
+   color: grey;
+  }
+
+  .link1{
+    color: white;
+    font-weight: bolder;
+  }
+  
+  .link1:hover, .link1:active{
+    text-decoration: none;
+    color: grey;
+  }

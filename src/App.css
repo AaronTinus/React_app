@@ -36,3 +36,145 @@
     transform: rotate(360deg);
   }
 }
+
+
+img{
+  background-image: fit-content;
+  height: 105vh;
+  width: cover;
+  object-fit: fill;
+  margin-top:-25px;
+  overflow: hidden;
+  resize: contain;
+  align-self: center;
+  background-repeat: no-repeat;
+  flex: 1;
+}
+::-webkit-scrollbar {
+     display: none;
+}
+
+.press{
+  background-color: transparent;
+  margin-top: -350px;
+  margin-bottom: 200px;
+  margin-left: 60px;
+}
+p{
+  margin-bottom: 5px;
+  color: white;
+}
+h1{
+  color: white;
+}
+
+a{
+  word-spacing: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: -180px;
+}
+
+.btn{
+  border-radius: 0%;
+  font-size: smaller;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+/* .fubar{
+  background-color: black;
+  color: white;
+  font-size: x-small;
+  padding: 25px;
+}
+
+h6{
+ margin-top: 9px;
+ font-size: x-small;
+ color: grey;
+} */
+
+.link{
+  word-spacing: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: -180px;
+  color: white;
+  font-size: 10px;
+  font-weight: bolder;
+  padding: 30px;
+  text-decoration: none;
+  display: inline;
+  float: left;
+}
+
+.link:hover, .link:active{
+  text-decoration: underline;
+  color: white;
+}
+
+/* .link1{
+  color: white;
+  font-weight: bolder;
+}
+
+.link1:hover, .link1:active{
+  text-decoration: none;
+  color: grey;
+} */
+
+/* .link2:hover, .link2:active{
+  text-decoration: underline;
+  color: white;
+}
+
+.link2{
+  color: white;
+  font-weight: bolder;
+  padding-top: 17px;
+}
+ */
+.menu{
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 20px;
+  font-size: 2.5vh;
+}
+
+.box{
+  padding: 30px;
+  background-color: grey;
+  margin-bottom: 25px;
+  max-width: 400px;
+  border-radius: 8px;
+  border-color: 1px black;
+  margin-left: 30%;
+  text-align: center;
+  /* margin-bottom: -0px; */
+  margin-left: 800px;
+  z-index: 1;
+  position: absolute;
+}
+/* svg{
+  background-color: azure;
+
+} */
+
+ .title{
+  margin-left: 20px;
+  margin-top: -20px;
+} 
+ 
+/* .container{
+  align-content: center;
+  display: flex;
+} */
+
+/* .row{
+  display: inline-flex;
+} */
